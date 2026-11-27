@@ -1,0 +1,3 @@
+# Cloudflare Pages habilita Clean URLs de forma nativa (ERR-024):
+# /contacto sirve contacto.html con HTTP 200 y redirige /contacto.html -> /contacto.
+# No declarar reglas "/slug /slug.html 200" aqui: provocan bucle infinito HTTP 308.

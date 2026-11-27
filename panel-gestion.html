@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Panel de Gestión | Estudio Milán</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#0A0A0A">
+  <script src="js/theme-init.js?v=ac48888467"></script>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/fraunces-latin.woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css?v=ac48888467">
+  <link rel="stylesheet" href="css/variables.css?v=ac48888467">
+  <link rel="stylesheet" href="css/base.css?v=ac48888467">
+  <link rel="stylesheet" href="css/sections.css?v=ac48888467">
+  <link rel="stylesheet" href="css/pages.css?v=ac48888467">
+  <link rel="stylesheet" href="css/navbar.css?v=ac48888467">
+  <link rel="stylesheet" href="css/atelier-blocks.css?v=ac48888467">
+  <link rel="stylesheet" href="css/commerce.css?v=ac48888467">
+</head>
+<body class="atelier-body">
+  <header class="site-header site-header--atelier" data-header-variant="atelier-gallery">
+    <div class="atelier-header-inner">
+      <a href="./" class="atelier-brand-link" aria-label="Inicio — Estudio Milán">
+        <span class="atelier-brand-wordmark">Estudio Milán</span>
+      </a>
+      <nav class="atelier-nav-group" aria-label="Navegación principal">
+        <a href="./#catalogo" class="atelier-nav-link atelier-nav-desktop-only">Obras</a>
+        <a href="./#estimador" class="atelier-nav-link atelier-nav-desktop-only">Estimador</a>
+        <a href="./#proceso" class="atelier-nav-link atelier-nav-desktop-only">Proceso</a>
+        <a href="reservas" class="atelier-nav-cta" data-cta="nav-visita">
+          <span>Visita técnica</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="atelier-nav-arrow" aria-hidden="true"><path d="M5 12l14 0"/><path d="M13 18l6 -6"/><path d="M13 6l6 6"/></svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <nav class="mobile-dock" aria-label="Navegación móvil">
+    <a href="./" class="mobile-dock-link"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="ui-icon" aria-hidden="true"><path d="M5 12l-2 0l9 -9l9 9l-2 0"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"/><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"/></svg><span>Inicio</span></a>
+    <a href="./#catalogo" class="mobile-dock-link"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="ui-icon" aria-hidden="true"><path d="M12 9m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0"/><path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889"/><path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889"/></svg><span>Obras</span></a>
+    <a href="reservas" class="mobile-dock-link"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="ui-icon" aria-hidden="true"><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M4 11h16"/></svg><span>Visita</span></a>
+    <a href="contacto" class="mobile-dock-link"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="ui-icon" aria-hidden="true"><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/></svg><span>Contacto</span></a>
+  </nav>
+  <div id="app-root">
+    <main class="container">
+      <section id="admin-auth-section" class="page-card admin-shell" aria-label="Acceso al panel de gestión">
+        <h1>Acceso de Gestión — Estudio Milán</h1>
+        <p>Autenticación verificada en servidor vía Supabase Auth JWT + Row Level Security (app_metadata), o prueba inmediata en Vista Previa Local.</p>
+        <form id="supabase-admin-auth-form" class="domain-form admin-auth-form" aria-label="Autenticación de Administrador">
+          <div class="form-field">
+            <label for="admin-email">Correo corporativo</label>
+            <input type="email" id="admin-email" class="form-control" autocomplete="username" required>
+          </div>
+          <div class="form-field">
+            <label for="admin-password">Contraseña</label>
+            <input type="password" id="admin-password" class="form-control" autocomplete="current-password" required>
+          </div>
+          <div class="admin-form-actions">
+            <button type="submit" class="btn-primary">Iniciar Sesión Segura</button>
+            <button type="button" id="admin-preview-btn" class="btn-outline">Abrir en Modo Vista Previa Local</button>
+          </div>
+        </form>
+        <p id="admin-auth-status" class="admin-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section id="admin-workspace" class="admin-shell" hidden aria-label="Espacio de trabajo administrativo">
+        <header class="admin-header">
+          <div class="admin-header-title">
+            <h1>Panel de Gestión — Estudio Milán</h1>
+            <span id="admin-mode-badge" class="admin-badge">Vista Previa Local</span>
+          </div>
+          <div class="admin-header-actions">
+            <a href="./" class="btn-outline">Ver sitio</a>
+            <button type="button" id="admin-logout-btn" class="btn-outline">Cerrar sesión</button>
+          </div>
+        </header>
+
+        <div class="admin-tabs" role="tablist" aria-label="Secciones de administración">
+          <button type="button" id="tab-btn-catalog" class="admin-tab is-active" role="tab" aria-selected="true" aria-controls="admin-tab-catalog" data-admin-tab="catalog">Catálogo / Menú</button>
+          <button type="button" id="tab-btn-settings" class="admin-tab" role="tab" aria-selected="false" aria-controls="admin-tab-settings" data-admin-tab="settings">Datos del Comercio</button>
+        </div>
+
+        <p id="admin-status" class="admin-status" role="status" aria-live="polite"></p>
+
+        <section id="admin-tab-catalog" class="admin-panel" role="tabpanel" aria-labelledby="tab-btn-catalog">
+          <div class="admin-toolbar">
+            <input type="search" id="admin-search" class="form-control" placeholder="Buscar por nombre, categoría o ID..." aria-label="Buscar ítems en el catálogo">
+            <span id="admin-items-count" class="admin-badge">0 ítems</span>
+          </div>
+
+          <div id="admin-items-list" class="admin-list" aria-live="polite"></div>
+
+          <form id="admin-item-form" class="domain-form admin-form-card" aria-label="Formulario de ítem del catálogo">
+            <h2 id="item-form-title">Agregar o editar ítem</h2>
+            <div class="admin-grid-fields">
+              <div class="form-field">
+                <label for="item-id">ID del ítem (opcional al crear)</label>
+                <input type="text" id="item-id" name="id" class="form-control" maxlength="64" placeholder="Ej. producto-estrella">
+              </div>
+              <div class="form-field">
+                <label for="item-name">Nombre</label>
+                <input type="text" id="item-name" name="name" class="form-control" maxlength="120" required>
+              </div>
+              <div class="form-field">
+                <label for="item-category">Categoría</label>
+                <input type="text" id="item-category" name="category" class="form-control" maxlength="60" required>
+              </div>
+              <div class="form-field">
+                <label for="item-price">Precio (USD)</label>
+                <input type="number" id="item-price" name="priceUsd" class="form-control" min="0" step="0.01" required>
+              </div>
+              <div class="form-field">
+                <label for="item-stock">Stock disponible</label>
+                <input type="number" id="item-stock" name="stock" class="form-control" min="0" step="1" value="15" required>
+              </div>
+              <div class="form-field">
+                <label for="item-badge">Etiqueta (opcional)</label>
+                <input type="text" id="item-badge" name="badge" class="form-control" maxlength="40" placeholder="Ej. Más vendido">
+              </div>
+              <div class="form-field">
+                <label for="item-image-url">URL de imagen (https:// o assets/...)</label>
+                <input type="text" id="item-image-url" name="imageUrl" class="form-control" maxlength="500" placeholder="https://... o assets/products/foto.webp">
+              </div>
+              <div class="form-field">
+                <label for="item-image-file">Subir imagen (se optimiza automáticamente a WebP)</label>
+                <input type="file" id="item-image-file" name="imageFile" class="form-control" accept="image/*">
+                <small id="item-image-hint" class="mcard-desc">Se redimensiona a máx. 900 px y se comprime a WebP ligero para mantener el sitio veloz.</small>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="item-description">Descripción</label>
+              <textarea id="item-description" name="description" class="form-control" rows="3" maxlength="600" required></textarea>
+            </div>
+            <div class="admin-checks-row">
+              <label class="admin-check" for="item-featured">
+                <input type="checkbox" id="item-featured" name="featured">
+                <span>Destacado en portada</span>
+              </label>
+              <label class="admin-check" for="item-disponible">
+                <input type="checkbox" id="item-disponible" name="disponible" checked>
+                <span>Disponible en catálogo</span>
+              </label>
+            </div>
+            <div class="admin-form-actions">
+              <button type="submit" id="item-submit-btn" class="btn-primary">Guardar ítem</button>
+              <button type="button" id="item-reset-btn" class="btn-outline">Cancelar edición</button>
+            </div>
+          </form>
+        </section>
+
+        <section id="admin-tab-settings" class="admin-panel" role="tabpanel" aria-labelledby="tab-btn-settings" hidden>
+          <form id="admin-settings-form" class="domain-form admin-form-card" aria-label="Configuración pública del comercio">
+            <h2>Datos del Comercio</h2>
+            <div class="form-field">
+              <label for="settings-hours">Horario de atención</label>
+              <input type="text" id="settings-hours" name="businessHours" class="form-control" maxlength="160" placeholder="Lun–Dom · 9:00 a 20:00">
+            </div>
+
+            <div class="form-field">
+              <label for="new-phone-input">Teléfonos de contacto (el primero es el WhatsApp principal)</label>
+              <ul id="admin-phones-list" class="admin-chip-list"></ul>
+              <div class="admin-inline-add">
+                <input type="tel" id="new-phone-input" class="form-control" maxlength="25" placeholder="+52 55 0000 0000" aria-label="Agregar teléfono">
+                <button type="button" id="add-phone-btn" class="btn-outline">Agregar teléfono</button>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="new-payment-input">Métodos o sistemas de pago aceptados (opcional)</label>
+              <ul id="admin-payments-list" class="admin-chip-list"></ul>
+              <div class="admin-inline-add">
+                <input type="text" id="new-payment-input" class="form-control" maxlength="60" placeholder="Transferencia USD, Wire, SPEI..." aria-label="Agregar método de pago">
+                <button type="button" id="add-payment-btn" class="btn-outline">Agregar método</button>
+              </div>
+            </div>
+
+            <div class="admin-grid-fields">
+              <div class="form-field">
+                <label for="settings-announcement">Barra de anuncio superior</label>
+                <input type="text" id="settings-announcement" name="announcementText" class="form-control" maxlength="200">
+              </div>
+              <div class="form-field">
+                <label for="settings-promo">Promoción destacada</label>
+                <input type="text" id="settings-promo" name="promoHeadline" class="form-control" maxlength="200">
+              </div>
+              <div class="form-field">
+                <label for="settings-eta">Tiempo estimado de entrega o atención</label>
+                <input type="text" id="settings-eta" name="deliveryEta" class="form-control" maxlength="100">
+              </div>
+            </div>
+
+            <div class="admin-form-actions">
+              <button type="submit" id="settings-submit-btn" class="btn-primary">Guardar datos del comercio</button>
+              <button type="button" id="settings-reset-btn" class="btn-outline">Restablecer vista previa local</button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="footer-year">2026</span> Estudio Milán — Plataforma Certificada por Karamel (Vanguard Core)</p>
+      <nav aria-label="Enlaces Legales">
+        <ul class="nav-links">
+          <li><a href="./" class="nav-link">Inicio</a></li>
+          <li><a href="contacto" class="nav-link">Contacto</a></li>
+          <li><a href="privacidad" class="nav-link">Privacidad</a></li>
+          <li><a href="terminos" class="nav-link">Términos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script type="module" src="js/admin-auth.js?v=ac48888467"></script>
+</body>
+</html>

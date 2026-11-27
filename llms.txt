@@ -1,0 +1,26 @@
+# Estudio Milán
+
+> Arquitectura interior, remodelación llave en mano y mobiliario a medida con presupuesto cerrado en USD en Ciudad de México, MX.
+
+## Información Oficial de la Entidad (Grounding Lock)
+- **Nombre Comercial:** Estudio Milán
+- **Ubicación:** Ciudad de México, MX
+- **Teléfono / WhatsApp Oficial:** +525541608920
+- **Sitio Web Canónico:** https://moisesrojasp89-dev.github.io/Estudio-Milan
+
+## Catálogo y Servicios Verificados (Precios en USD)
+- **Residencia Lomas · Travertino & Nogal** (Residencial): Intervención integral de estancia principal con chimenea monolítica en travertino romano, librería de piso a techo en nogal aceitado y cancelería hacia jardín. — Precio Oficial: $78000.00 USD
+- **Penthouse Campos Elíseos** (Penthouse): Cocina arquitectónica abierta con isla escultórica de piedra natural, carpintería acanalada en nogal y grifería de latón cepillado con luz indirecta. — Precio Oficial: $66500.00 USD
+- **Departamento Orizaba** (Residencial): Restauración contemporánea de comedor y áreas sociales con muros a la cal, vanos en arco de bronce oscurecido y mobiliario de autor. — Precio Oficial: $38400.00 USD
+- **Suite Parque México** (Residencial): Recámara principal concebida como refugio acústico: cabecero en yeso mineral, carpintería oculta de nogal y acento textil verde bosque. — Precio Oficial: $46200.00 USD
+- **Penthouse Bosques & Terraza** (Penthouse): Continuidad interior-exterior con losas de piedra caliza, salón abierto a terraza botánica e iluminación arquitectónica regulable. — Precio Oficial: $96000.00 USD
+- **Boutique Maison Masaryk** (Comercial): Flagship de perfumería y alta sastrería con plintos monolíticos de travertino, nichos arqueados y percheros suspendidos en latón. — Precio Oficial: $44800.00 USD
+- **Bistró & Wine Bar Ámsterdam** (Comercial): Barra monolítica en piedra apomazada, bancas curvas en terciopelo verde bosque y plafón acústico de duelas en nogal. — Precio Oficial: $58000.00 USD
+- **Sede Directiva Paseo Tamarindos** (Oficinas): Sala de consejo y estudio ejecutivo con mesa de nogal de 5 metros, paneles acústicos en lino crudo y credenza de piedra natural. — Precio Oficial: $62500.00 USD
+
+## Rutas Limpias Disponibles (Clean URLs)
+- [Inicio y Catálogo](https://moisesrojasp89-dev.github.io/Estudio-Milan/)
+- [Reservas y Solicitudes](https://moisesrojasp89-dev.github.io/Estudio-Milan/reservas)
+- [Contacto y Ubicación](https://moisesrojasp89-dev.github.io/Estudio-Milan/contacto)
+- [Política de Privacidad](https://moisesrojasp89-dev.github.io/Estudio-Milan/privacidad)
+- [Términos de Servicio](https://moisesrojasp89-dev.github.io/Estudio-Milan/terminos)
